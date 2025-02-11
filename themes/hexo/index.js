@@ -351,7 +351,7 @@ const Layout404 = props => {
             404
           </h2>
           <div className='inline-block text-left h-32 leading-10 items-center'>
-            <h2 className='m-0 p-0'>页面未找到</h2>
+            <h2 className='m-0 p-0'>頁面未找到</h2>
           </div>
         </div>
       </div>
