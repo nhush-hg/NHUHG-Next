@@ -3,8 +3,10 @@
  */
 const CONFIG = {
   // 默认只展示Logo文字，如果设置了logo图片，会在文字左侧显示图标
-  STARTER_LOGO: '', // 普通logo图片 示例：/images/starter/logo/logo.svg
-  STARTER_LOGO_WHITE: '', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
+  STARTER_LOGO:
+    'https://raw.githubusercontent.com/nhush-hg/NHUHG-Next/refs/heads/main/public/favicon.png', // 普通logo图片 示例：/images/starter/logo/logo.svg
+  STARTER_LOGO_WHITE:
+    'https://raw.githubusercontent.com/nhush-hg/NHUHG-Next/refs/heads/main/public/favicon.png', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
 
   // MENU ， 菜单部分不在此处配置，请在Notion数据库中添加MENU
 
@@ -41,26 +43,25 @@ const CONFIG = {
   STARTER_FEATURE_1_TITLE_1: '免费且开源', // 特性1
   STARTER_FEATURE_1_TEXT_1: '项目源码在Github上完全开放共享，遵循MIT协议', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
+  STARTER_FEATURE_1_BUTTON_URL: '#', // 特性1
 
   STARTER_FEATURE_2_TITLE_1: '多种主题定制', // 特性2
   STARTER_FEATURE_2_TEXT_1: '数十种主题,适用于不同场景，总有一款适合你', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
-  STARTER_FEATURE_2_BUTTON_URL:
-    'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
+  STARTER_FEATURE_2_BUTTON_URL: '#', // 特性2
 
   STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
   STARTER_FEATURE_3_TEXT_1: '基于NextJS开发，更快的响应速度，更好的SEO', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
-  STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
+  STARTER_FEATURE_3_BUTTON_URL: '#', // 特性3
 
-  STARTER_FEATURE_4_TITLE_1: '便捷的写作体验', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '只需在Notion笔记中编修，自动同步到网站', // 特性4
-  STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
-  STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
+  STARTER_FEATURE_4_TITLE_1: '', // 特性4
+  STARTER_FEATURE_4_TEXT_1: '', // 特性4
+  STARTER_FEATURE_4_BUTTON_TEXT: '', // 特性4
+  STARTER_FEATURE_4_BUTTON_URL: '', // 特性4
 
   // 首页ABOUT区块
-  STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
+  STARTER_ABOUT_ENABLE: false, // ABOUT区块开关
   STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
   STARTER_ABOUT_TEXT:
     'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
@@ -73,7 +74,7 @@ const CONFIG = {
   STARTER_ABOUT_TIPS_3: '正在线上运行',
 
   // 首页价格区块
-  STARTER_PRICING_ENABLE: true, // 价格区块开关
+  STARTER_PRICING_ENABLE: false, // 价格区块开关
   STARTER_PRICING_TITLE: '价格表',
   STARTER_PRICING_TEXT_1: '很棒的定价计划',
   STARTER_PRICING_TEXT_2:
@@ -111,7 +112,7 @@ const CONFIG = {
     'https://tangly1024.lemonsqueezy.com/checkout/buy/df924d66-09dc-42a4-a632-a6b0c5cc4f28',
 
   // 首页用户测评区块
-  STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
+  STARTER_TESTIMONIALS_ENABLE: false, // 测评区块开关
   STARTER_TESTIMONIALS_TITLE: '用户反馈',
   STARTER_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
   STARTER_TESTIMONIALS_TEXT_2:
@@ -198,7 +199,7 @@ const CONFIG = {
     '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决',
 
   // 团队成员区块
-  STARTER_TEAM_ENABLE: true, // 团队成员区块开关
+  STARTER_TEAM_ENABLE: false, // 团队成员区块开关
   STARTER_TEAM_TITLE: '团队成员',
   STARTER_TEAM_TEXT_1: '我们的开发者团队',
   STARTER_TEAM_TEXT_2:
@@ -239,15 +240,15 @@ const CONFIG = {
 
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
-  STARTER_CONTACT_TITLE: '联系我们',
-  STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
-  STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
-  STARTER_CONTACT_LOCATION_TEXT: '中国，福建',
-  STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
-  STARTER_CONTACT_EMAIL_TEXT: 'mail@tangly1024.com',
+  STARTER_CONTACT_TITLE: '',
+  STARTER_CONTACT_TEXT: '與我們聯繫',
+  STARTER_CONTACT_LOCATION_TITLE: '南湖高中地址',
+  STARTER_CONTACT_LOCATION_TEXT: '114...',
+  STARTER_CONTACT_EMAIL_TITLE: 'Instagram 小盒子',
+  STARTER_CONTACT_EMAIL_TEXT: 'instagram.com/@nhush-hg',
 
   // 嵌入外部表单
-  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
+  // STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
   //   自定义留言表单，以下几个配置暂时废弃
   //   STARTER_CONTACT_MSG_TITLE: '向我们留言',
   //   STARTER_CONTACT_MSG_NAME: '姓名',
@@ -258,7 +259,7 @@ const CONFIG = {
   //   STARTER_CONTACT_MSG_THANKS: '感谢您的留言',
 
   // 合作伙伴的图标
-  STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
+  STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
   STARTER_BRANDS: [
     {
       IMAGE: '/images/starter/brands/graygrids.svg',
@@ -372,7 +373,7 @@ const CONFIG = {
   STARTER_CTA_BUTTON_TEXT: '开始体验',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  STARTER_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
+  STARTER_POST_REDIRECT_URL: 'https://nhuhg.vercel.app', // 重定向域名
   STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
