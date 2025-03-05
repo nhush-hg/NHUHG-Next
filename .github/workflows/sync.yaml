@@ -4,8 +4,13 @@ permissions:
   contents: write
 
 on:
-  schedule:
-    - cron: "0 0 * * *" # every day
+  # 因 i18n 功能修復與上游新功能衝突，故將停止與上游同步。
+  # 未來如有需要套用更新，將採用手動變更程式碼。
+  # 南湖儀隊資媒組楊子昀（112），留
+
+  # schedule:
+  #   - cron: '0 0 * * *' # every day
+
   workflow_dispatch:
 
 jobs:
@@ -26,7 +31,7 @@ jobs:
         with:
           upstream_sync_repo: tangly1024/NotionNext
           upstream_sync_branch: main
-          target_sync_branch: main
+          target_sync_branch: dev
           target_repo_token: ${{ secrets.GITHUB_TOKEN }} # automatically generated, no need to set
 
           # Set test_mode true to run tests instead of the true action!!
