@@ -4,8 +4,13 @@ permissions:
   contents: write
 
 on:
-  schedule:
-    - cron: '0 0 * * *' # every day
+  # 因 i18n 功能修復與上游新功能衝突，故將停止與上游同步。
+  # 未來如有需要套用更新，將採用手動變更程式碼。
+  # 南湖儀隊資媒組楊子昀（112），留
+
+  # schedule:
+  #   - cron: '0 0 * * *' # every day
+
   workflow_dispatch:
 
 jobs:
